@@ -1,0 +1,53 @@
+Task 1.
+Virtual Machine Setup:
+- Create a Windows-based virtual machine using your Azure portal.
+- Configure the network settings of the VM to ensure it is accessible from the network.
+
+The first section of the report covers the initial setup of the Windows-based virtual machine using the Azure portal.
+It covers selecting the appropriate subscription and resource group, configuring instance/Basic VM details such as the VM name, Region, and Security type, and setting up the administrator account.
+Screenshots of each step, such as the selection of the Windows Server 2022 Datacenter image and the configuration of the virtual machine architecture and size included.
+
+
+Task 2.
+*User Account Management:*
+- Create user accounts on the Windows VM for each group member.
+- Assign appropriate permissions based on the principle of least privilege.
+Next, the network configuration to ensure the VM is accessible from the network. 
+This covers setting up inbound port rules to<br>allow selected ports, specifically RDP (3389), and configuring the network security group (NSG) to restrict access to specific IP addresses. 
+The documentation should include screenshots of the inbound and outbound security rules created in the Azure portal, along with explanations of the source, destination, service, action, and priority settings for each rule.
+
+Task 3.
+*Enable Remote Desktop Protocol (RDP)
+- Enable RDP on the Windows VM.
+- Configure the firewall to allow RDP connections (default port TCP/3389).
+
+The third section focus on user account management on the Windows VM. This includes creating user accounts for each group member and assigning appropriate permissions based on the principle of least privilege.
+The report should provide step-by-step instructions on navigating to "Local Users and Groups," creating new users, and setting permissions.
+Screenshots of the user creation process and the assignment of permissions should be included to ensure clarity.
+
+Task 4.
+Secure the Connection:
+- Set up a Virtual Private Network (VPN) or Network Security Group (NSG) to restrict access to the VM to specific IP addresses.
+- Enforce Multi-Factor Authentication (MFA) for remote access.
+- Document the steps taken to secure the VM and the RDP connection.
+
+The fourth section covers the enabling and configuration of Remote Desktop Protocol (RDP) on the Windows VM.
+This involves enabling RDP in the system properties, configuring the firewall to allow RDP connections, and setting up the necessary firewall rules. 
+Detailed instructions and screenshots of each step, such as selecting the "Allow remote connections to this computer"
+option and creating new inbound rules in Windows Defender Firewall, should be provided.
+
+Task 5.
+Test Remote Access:*
+- Each group member should test remote access to the Windows VM using RDP.
+- Troubleshoot and resolve any connection issues.
+
+
+Task 6.
+*Monitoring and Logging:
+- Enable and configure logging in the Windows Event Viewer to track remote access attempts.
+- Monitor the logs for any unauthorised access attempts and document the findings.
+
+The report also covers the monitoring and logging setup to track remote access attempts.
+This involves enabling logging in the Windows Event Viewer, monitoring logs for unauthorised access attempts, and documenting the findings.
+On the last task. the Event Viewer configuration, examples of log entries for successful and failed logons, and any actions taken in response to unauthorised access attempts.
+This section ensures that the security measures are effective and that any potential issues are promptly addressed.
